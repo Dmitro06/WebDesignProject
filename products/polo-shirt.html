@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bpmf+Huninn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+     <section class="header">
+        
+        <div class="navbar">
+
+            <h1 class="logo"><a href="/index.html">Kids' Clothes Store</a></h1>
+            <nav>
+                <ul id="MenuItems">
+                    <li  class="transition"><h1><a href="/index.html">Home</a></h1></li>
+                    <li class="modeOn"><h1><a href="/products.html">Products</a></h1></li>
+                    <li  class="transition"><h1><a href="/account.html">Account</a></h1></li>
+                </ul>
+                <a href="/cart.html" class="cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                    <span class="cart-counter">0</span>
+                </a>
+            </nav>
+        </div>
+        <div>   
+        </div>
+    </section>
+
+    <section class="product-detail">
+        <div class="prod-container">
+            <div class="image-container" style="margin-top: 100px;">
+              <div class="slider">
+                <button class="arrow prev">&#10094;</button>
+
+              <div class="slider-main">
+                <img id="mainImage" src="/img/polo-shirt.jpg">
+              </div>
+
+              <button class="arrow next">&#10095;</button>
+
+              <div class="thumbnails" style="width: 200px;">
+                <img src="/img/polo-shirt.jpg" class="thumb active">
+                <img src="/img/polo-shirt-1.webp" class="thumb">
+                </div>
+              </div>
+              
+            </div>
+            <div class="detail-container">
+              <h1>Polo shirt</h1>
+              <h2>17 €</h2>
+              <p>
+                Gender:    Boy<br> 
+Season:    Summer<br> 
+Style:    T-shirt<br> 
+Color:    White<br> 
+                Material: 100% cotton.
+              </p>
+              <select class="size-select">
+        <option disabled selected value="">Choose size</option>
+        <option value="10-11 years">10-11 years</option>
+        <option value="11-12 years">11-12 years</option>
+        <option value="12-13 years">12-13 years</option>
+      </select>
+      <a href="#" class="btn-primary"
+         data-id="012"
+         data-name="Polo shirt"
+         data-price="17"
+         data-image="/img/polo-shirt.jpg">
+        Add to cart
+      </a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+         <div class="footer-container">
+
+    <!-- Brand Column -->
+    <div class="footer-col brand">
+      <h2 class="footer-logo">
+        <a href="#" class="footer-log">Kids' Clothes Store</a>
+      </h2>
+      <p class="brand-text">
+        Children's clothing designed for comfort, style, and play.
+      </p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Shop Column -->
+    <div class="footer-col">
+      <h3>Shop</h3>
+      <ul>
+        <li><a href="/categories/baby-products.html">Baby</a></li>
+        <li><a href="/categories/girls-products.html">Girls</a></li>
+        <li><a href="/categories/boys-product.html">Boys</a></li>
+        <li><a href="/products.html">All Products</a></li>
+      </ul>
+    </div>
+
+    <!-- Help Column -->
+    <div class="footer-col">
+      <h3>Help</h3>
+      <ul>
+        <li><a href="#">Shipping Info</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Size Guide</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter Column -->
+    <div class="footer-col newsletter">
+      <h3>Newsletter</h3>
+      <p>Get updates on new arrivals and special offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+  </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="/cart.js"></script>
+</body>
+</html>
