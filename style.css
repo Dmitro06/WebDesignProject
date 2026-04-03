@@ -7,7 +7,7 @@
 .logo {
   font-family: "Bpmf Huninn", sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 45px;
 }
 .logo:hover {
   background: linear-gradient(to right, #ad82fc, #60d2fc);
@@ -88,7 +88,7 @@ nav ul li {
 /* ===== MAIN SCREEN ===== */
 .center {
   max-width: 100%;
-  height: 900px;
+  height: 800px;
   background: linear-gradient(45deg, #fcc2d9, #c0e4fa, #dcfec4);
   display: flex;
   align-items: center;
@@ -150,11 +150,11 @@ nav ul li {
 }
 
 /* ===== FEATURES ===== */
-.icons {
+/*.icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 400px;
 }
 .features {
   display: flex;
@@ -174,8 +174,8 @@ nav ul li {
 }
 
 .feature-icon-wrap {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -194,19 +194,19 @@ nav ul li {
 }
 
 .feature-icon-wrap svg {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 
 .feature-title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   color: #111;
   margin-bottom: 10px;
 }
 
 .feature-text {
-  font-size: 25px;
+  font-size: 20px;
   color: #888;
   line-height: 1.65;
 }
@@ -223,7 +223,7 @@ nav ul li {
 }
 .section-title {
   font-family: "Playfair Display", serif;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -242,7 +242,7 @@ nav ul li {
 .categories-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 280px 280px;
+  grid-template-rows: 240px 240px;
   gap: 16px;
 }
 
@@ -266,7 +266,7 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 80px;
+  font-size: 60px;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -301,18 +301,18 @@ nav ul li {
 
 .cat-label {
   position: absolute;
-  bottom: 24px;
-  left: 24px;
-  right: 24px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
 }
 .cat-name {
   font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-size: 25px;
   color: var(--charcoal);
   margin-bottom: 4px;
 }
 .cat-count {
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgba(26, 26, 26, 0.6);
@@ -334,7 +334,7 @@ nav ul li {
 .image-container {
   position: relative;
   width: 80%;
-  height: 750px;
+  height: 650px;
   padding: 3% 10% 1% 10%;
 }
 
@@ -366,23 +366,23 @@ nav ul li {
   text-align: center;
 }
 .cat {
-  height: 80px;
+  height: 70px;
 }
 .col-4 img {
-  width: 270px;
-  height: 350px;
+  width: 260px;
+  height: 330px;
   margin-bottom: 10px;
 }
 
 .col-4 p {
   margin: 10px 0;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 select {
-  width: 250px;
-  height: 40px;
+  width: 240px;
+  height: 35px;
   text-align: center;
   margin-top: 6px;
   border-radius: 8px;
@@ -396,7 +396,7 @@ select:focus {
 }
 
 .col-4 option {
-  height: 80px;
+  height: 70px;
   cursor: pointer;
 }
 
@@ -407,7 +407,7 @@ select:focus {
   color: black;
   font-size: 22px;
   display: inline-block;
-  padding: 13px 80px;
+  padding: 10px 70px;
   margin: 30px 0;
   transition: 0.5s;
 }
@@ -420,7 +420,7 @@ select:focus {
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 70px;
   align-items: center;
   padding: 100px 8%;
 }
@@ -431,30 +431,30 @@ select:focus {
 
 .about-img-placeholder {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: linear-gradient(135deg, #fcc2d9, #c0e4fa, #dcfec4);
   border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 120px;
+  font-size: 100px;
 }
 
 .about-badge {
   position: absolute;
-  bottom: 30px;
+  bottom: 25px;
   right: -20px;
   background: #ff6b9d;
   color: white;
   padding: 14px 24px;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   box-shadow: 0 8px 24px rgba(255, 107, 157, 0.35);
 }
 
 .about-title {
-  font-size: 52px;
+  font-size: 44px;
   font-weight: 800;
   line-height: 1.15;
   margin: 12px 0 24px;
@@ -468,7 +468,7 @@ select:focus {
 }
 
 .about-text {
-  font-size: 20px;
+  font-size: 18px;
   color: #666;
   line-height: 1.75;
   margin-bottom: 16px;
@@ -488,8 +488,8 @@ select:focus {
 }
 
 .stat-number {
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 34px;
+  font-weight: 700;
   background: linear-gradient(to right, #ff6b9d, #ad82fc);
   background-clip: text;
   color: transparent;
@@ -497,7 +497,7 @@ select:focus {
 }
 
 .stat-label {
-  font-size: 14px;
+  font-size: 12px;
   color: #999;
   margin-top: 4px;
   letter-spacing: 0.08em;
@@ -516,18 +516,18 @@ select:focus {
   text-align: center;
 }
 .feature-icon {
-  font-size: 60px;
-  margin-bottom: 16px;
+  font-size: 50px;
+  margin-bottom: 14px;
   display: block;
 }
 .features-section .feature-title {
   font-family: "Playfair Display", serif;
-  font-size: 26px;
+  font-size: 22px;
   color: rgb(255, 255, 255);
   margin-bottom: 8px;
 }
 .features-section .feature-text {
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(250, 247, 242, 0.5);
   line-height: 1.6;
 }
@@ -549,7 +549,7 @@ select:focus {
 }
 .testimonial .col-3 {
   text-align: center;
-  padding: 40px 40px;
+  padding: 30px 30px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.5s;
@@ -560,12 +560,12 @@ select:focus {
 }
 
 .col-3 p {
-  font-size: 22px;
+  font-size: 18px;
   margin: 18px 0;
   color: #474747;
 }
 .fa-quote-left {
-  font-size: 38px;
+  font-size: 33px;
   background: linear-gradient(to right, #ad82fc, #60d2fc);
   background-clip: text;
   color: transparent;
@@ -574,12 +574,12 @@ select:focus {
 .testimonial .col-3 h3 {
   font-weight: 600;
   color: #282828;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 /* ======FOOTER=====*/
 footer {
-  margin-top: 50px;
+  margin-top: 40px;
   background: rgb(26, 26, 26);
   padding: 60px 8%;
   font-family: "Segoe UI", sans-serif;
@@ -598,7 +598,7 @@ footer {
   transition: 0.5s;
 }
 .footer-col h3 {
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -612,7 +612,7 @@ footer {
 }
 
 .footer-col ul li a {
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   color: #c1bfbf;
   transition: 0.3s ease;
@@ -623,16 +623,16 @@ footer {
 }
 
 .footer-logo {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .footer-log {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .brand-text {
-  font-size: 20px;
+  font-size: 18px;
   color: #666;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -641,7 +641,7 @@ footer {
 
 .socials a {
   margin-right: 15px;
-  font-size: 26px;
+  font-size: 22px;
   color: #777;
   transition: 0.3s ease;
 }
@@ -651,7 +651,7 @@ footer {
 }
 
 .newsletter p {
-  font-size: 20px;
+  font-size: 18px;
   color: #666;
   margin-bottom: 20px;
   max-width: 280px;
@@ -664,15 +664,15 @@ footer {
 
 .newsletter-form input {
   flex: 1;
-  padding: 14px 20px;
+  padding: 12px 18px;
   border-radius: 12px;
   border: 2px solid #ff6b9d;
   outline: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .newsletter-form button {
-  padding: 16px 26px;
+  padding: 14px 23px;
   border: none;
   border-radius: 12px;
   background-color: #ff6b9d;
