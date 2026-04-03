@@ -775,7 +775,7 @@ footer {
   top: 45%;
   background: none;
   border: none;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -810,10 +810,10 @@ footer {
 
 .detail-container {
   padding-top: 70px;
-  max-width: 700px;
+  max-width: 600px;
 }
 .detail-container h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: #040404;
   margin-bottom: 40px;
@@ -821,13 +821,13 @@ footer {
 
 .detail-container h2 {
   color: #ff4f8a;
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 800;
   margin-bottom: 60px;
 }
 
 .detail-container p {
-  font-size: 25px;
+  font-size: 20px;
   color: #282828;
   margin-bottom: 30px;
 }
@@ -842,7 +842,7 @@ footer {
 .form-container {
   background-color: #fff;
   width: 400px;
-  height: 450px;
+  height: 420px;
   position: relative;
   text-align: center;
   padding: 20px 0;
