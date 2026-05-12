@@ -257,7 +257,6 @@ nav ul li {
   color: rgba(26, 26, 26, 0.6);
 }
 
-/* Decorative dot pattern overlay */
 .cat-bg::after {
   content: "";
   position: absolute;
